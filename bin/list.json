@@ -22277,6 +22277,18 @@
       "urls": [
         "dweb:/ipfs/QmY9epUJqS8VGkQmC53BoY2Zir5ovRZykUMpVwj6R4wABp"
       ]
+    },
+    {
+      "path": "soljson-v0.8.29-nightly.2025.3.5+commit.3dc2cf86.js",
+      "version": "0.8.29",
+      "prerelease": "nightly.2025.3.5",
+      "build": "commit.3dc2cf86",
+      "longVersion": "0.8.29-nightly.2025.3.5+commit.3dc2cf86",
+      "keccak256": "0xea59f2ba1c90049e65ca963d8c3827b2ab0046d60ee1fe3c5a281850c67997a5",
+      "sha256": "0x07874d09bfedee222f59f41a7625106f1376fbef4cac0abe0622505b12e2e864",
+      "urls": [
+        "dweb:/ipfs/QmSTvi7JxqMihHSmF6bnZMCvgVwAFPG3s3hE1VxSSdDAeS"
+      ]
     }
   ],
   "releases": {
