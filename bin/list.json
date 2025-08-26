@@ -22971,6 +22971,18 @@
       "urls": [
         "dweb:/ipfs/QmdWZ8qsEJcdFupDM6RSQksvHPAKdaDBTR8wnrnRWUNk3F"
       ]
+    },
+    {
+      "path": "soljson-v0.8.31-nightly.2025.8.25+commit.29bba317.js",
+      "version": "0.8.31",
+      "prerelease": "nightly.2025.8.25",
+      "build": "commit.29bba317",
+      "longVersion": "0.8.31-nightly.2025.8.25+commit.29bba317",
+      "keccak256": "0xdcf5cf3a0c46d69417aa5a7de3aacb1a0adf8519b82271994791654fe97ee1b4",
+      "sha256": "0x6a2947a31104a6341bcd91e71159e3175dff0211e016f31f2d71c8d667daabc2",
+      "urls": [
+        "dweb:/ipfs/QmUr4Zfn7Ej3hVwprYsVUBRdadpUBpcw6uvfoNFR8ErU8J"
+      ]
     }
   ],
   "releases": {
