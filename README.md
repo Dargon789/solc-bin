@@ -1,6 +1,6 @@
 # solc-bin
 
-This repository contains current and historical builds of the [Solidity Compiler](https://github.com/ethereum/solidity/).
+This repository contains current and historical builds of the [Solidity Compiler](https://github.com/argotorg/solidity/).
 
 Please refer to the section on [Static Binaries](https://docs.soliditylang.org/en/latest/installing-solidity.html#static-binaries)
 in the official documentation for information about the structure of this repository, its content and recommended usage.

@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereum/solc-bin.git"
+    "url": "git+https://github.com/argotorg/solc-bin.git"
   },
   "keywords": [
     "ethereum",
@@ -28,7 +28,7 @@
   "author": "",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ethereum/solc-bin/issues"
+    "url": "https://github.com/argotorg/solc-bin/issues"
   },
-  "homepage": "https://github.com/ethereum/solc-bin#readme"
+  "homepage": "https://github.com/argotorg/solc-bin#readme"
 }
