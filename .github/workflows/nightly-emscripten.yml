@@ -116,6 +116,9 @@ jobs:
       - build-emscripten-nightly
       - test-emscripten-nightly
 
+    permissions:
+      contents: write
+
     env:
       NIGHTLY_VERSION: ${{ needs.build-emscripten-nightly.outputs.nightly-version }}
 
