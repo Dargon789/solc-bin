@@ -8,7 +8,7 @@ on:
 env:
   TARGET_BRANCH: gh-pages
   COMMITTER_NAME: emscripten nightly action
-  COMMITTER_EMAIL: builds@ethereum.org
+  COMMITTER_EMAIL: builds@argot.org
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
@@ -31,7 +31,7 @@ jobs:
 
       - uses: actions/checkout@v4
         with:
-          repository: 'ethereum/solidity'
+          repository: 'argotorg/solidity'
           ref: 'develop'
           path: 'solidity/'
           submodules: 'recursive'
@@ -97,7 +97,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: 'ethereum/solidity'
+          repository: 'argotorg/solidity'
           submodules: 'recursive'
 
       - name: Download soljson.js artifact

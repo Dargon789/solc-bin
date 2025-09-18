@@ -9,7 +9,7 @@ env:
   MIN_SUPPORTED_SOLIDITY_VERSION: 0.3.6
   TARGET_BRANCH: macosx-static-binaries
   COMMITTER_NAME: macosx build action
-  COMMITTER_EMAIL: builds@ethereum.org
+  COMMITTER_EMAIL: builds@argot.org
 
 jobs:
   select-solc-version:
@@ -24,7 +24,7 @@ jobs:
 
       - name: Select version to build
         run: |
-          github_tag_response=$(curl "https://api.github.com/repos/ethereum/solidity/git/refs/tags/")
+          github_tag_response=$(curl "https://api.github.com/repos/argotorg/solidity/git/refs/tags/")
           github_macosx_files_response=$(curl "https://api.github.com/repos/${GITHUB_REPOSITORY}/contents/macosx-amd64?ref=${TARGET_BRANCH}")
 
           available_tags=$(
@@ -65,7 +65,7 @@ jobs:
       - name: Check out Solidity source
         uses: actions/checkout@v4
         with:
-          repository: 'ethereum/solidity'
+          repository: 'argotorg/solidity'
           ref: v${{ env.SOLIDITY_VERSION }}
           path: solidity/
           fetch-depth: 0
@@ -155,7 +155,7 @@ jobs:
 
               evmone_version="0.1.0"
               evmone_package="evmone-0.1.0-darwin-x86_64"
-              curl -O -L "https://github.com/ethereum/evmone/releases/download/v${evmone_version}/${evmone_package}.tar.gz"
+              curl -O -L "https://github.com/ipsilon/evmone/releases/download/v${evmone_version}/${evmone_package}.tar.gz"
               tar xzpf "${evmone_package}.tar.gz" -C /usr/local
               rm "${evmone_package}.tar.gz"
             else
@@ -228,7 +228,7 @@ jobs:
           fi
 
           # Pre-0.5.0 versions were using wrong boost test header, resulting in the 'duplicate symbol' linker error in static builds.
-          # See https://github.com/ethereum/solidity/pull/4572
+          # See https://github.com/argotorg/solidity/pull/4572
           if semver --range '< 0.5.0' "$SOLIDITY_VERSION"; then
             sed -i.bak 's|^[[:blank:]]*#include <boost/test/included/unit_test\.hpp>[[:blank:]]*$|#include <boost/test/unit_test.hpp>|g' test/boostTest.cpp
           fi
