@@ -1,0 +1,40 @@
+version: 2.1
+
+executors:
+  node-executor:
+    docker:
+      - image: cimg/node:20.11
+
+commands:
+  setup-pnpm:
+    steps:
+      - run:
+          name: Install pnpm
+          command: npm install -g pnpm
+      - run:
+          name: Show pnpm version
+          command: pnpm --version
+
+jobs:
+  build:
+    executor: node-executor
+    steps:
+      - checkout
+      - setup-pnpm
+      - run:
+          name: Install dependencies
+          command: pnpm install --frozen-lockfile
+      - run:
+          name: Build project
+          command: pnpm build
+      - run:
+          name: Run tests
+          command: pnpm test
+
+workflows:
+  build_and_test:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: circleci-project-setup
