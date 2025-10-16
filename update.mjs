@@ -355,7 +355,7 @@ DIRS.forEach(function (dir) {
     processDir(dir, options, function (parsedList) {
       // Any new releases added to bin/ need to be linked in other directories before we can start processing them.
       parsedList.forEach(function (release) {
-        if (release.prerelease === undefined) {
+        if (release.prerelease === undefined || release.prerelease.startsWith('pre.')) {
           // Starting with 0.6.2 we no longer build asm.js releases and the new builds added to bin/ are all wasm.
           if (semver.gt(release.version, '0.6.1')) {
             updateSymlinkSync(
@@ -375,7 +375,7 @@ DIRS.forEach(function (dir) {
       processDir('/wasm', options, function (parsedList) {
         // Any new releases added to wasm/ need to be linked in emscripten-wasm32/ first.
         parsedList.forEach(function (release) {
-          if (release.prerelease === undefined) {
+          if (release.prerelease === undefined || release.prerelease.startsWith('pre.')) {
             updateSymlinkSync(
               join('/emscripten-wasm32', 'solc-emscripten-wasm32-v' + release.longVersion + '.js'),
               join('..', 'wasm', release.path)
