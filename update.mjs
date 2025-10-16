@@ -120,7 +120,10 @@ async function makeEntry (dir, parsedFileName, oldList) {
     }
   }
 
-  if (!build.sha256 || !build.keccak256 || !build.urls || build.urls.length !== 2) {
+  // WARNING: This assumes that build.urls is supposed to contain one hash. Remember to update
+  // the check if this changes! If you don't you'll make the script always recalculate all hashes,
+  // regardless of --reuse-hashes.
+  if (!build.sha256 || !build.keccak256 || !build.urls || build.urls.length !== 1) {
     const fileContent = await readFileAsync(absolutePath)
     build.keccak256 = '0x' + keccak(fileContent).toString('hex')
     console.log("Computing hashes of '" + pathRelativeToRoot + "'")
@@ -156,6 +159,7 @@ function processDir (dir, options, listCallback) {
       try {
         oldList = JSON.parse(readFileSync(join(__dirname, dir, '/list.json')))
       } catch (err) {
+        console.log('WARNING: Failed to read the existing hashes from ' + join(__dirname, dir, '/list.json'))
         // Not being able to read the existing list is not a critical error.
         // We'll just recreate it from scratch.
       }
