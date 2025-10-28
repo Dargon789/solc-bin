@@ -169,6 +169,7 @@ function processDir (dir, options, listCallback) {
       '/emscripten-wasm32': ['.js'],
       '/windows-amd64': ['.zip', '.exe'],
       '/linux-amd64': [''],
+      '/linux-arm64': [''],
       '/macosx-amd64': ['']
     }[dir] || ''
 
@@ -342,6 +343,7 @@ function parseCommandLine () {
 const DIRS = [
   '/bin',
   '/linux-amd64',
+  '/linux-arm64',
   '/macosx-amd64',
   '/windows-amd64'
 ]
