@@ -274,7 +274,7 @@ function processDir (dir, options, listCallback) {
     })
 
     // Update 'latest' symlink (except for wasm/ where the link is hard-coded to point at the one in bin/).
-    if (dir !== '/wasm') {
+    if (dir !== '/wasm' && latestReleaseFile) {
       const releaseExtension = binaryExtensions.find(function (extension) { return latestReleaseFile.endsWith(extension) })
 
       binaryExtensions.forEach(function (extension) {
