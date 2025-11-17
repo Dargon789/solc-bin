@@ -173,6 +173,7 @@ function processDir (dir, options, listCallback) {
       '/emscripten-wasm32': ['.js'],
       '/windows-amd64': ['.zip', '.exe'],
       '/linux-amd64': [''],
+      '/linux-arm64': [''],
       '/macosx-amd64': ['']
     }[dir] || ''
 
@@ -277,7 +278,7 @@ function processDir (dir, options, listCallback) {
     })
 
     // Update 'latest' symlink (except for wasm/ where the link is hard-coded to point at the one in bin/).
-    if (dir !== '/wasm') {
+    if (dir !== '/wasm' && latestReleaseFile) {
       const releaseExtension = binaryExtensions.find(function (extension) { return latestReleaseFile.endsWith(extension) })
 
       binaryExtensions.forEach(function (extension) {
@@ -346,6 +347,7 @@ function parseCommandLine () {
 const DIRS = [
   '/bin',
   '/linux-amd64',
+  '/linux-arm64',
   '/macosx-amd64',
   '/windows-amd64'
 ]
