@@ -1,4 +1,4 @@
-name: Mirror repository content to an S3 bucket
+name: Mirror repository content to storage buckets
 
 on:
   push:
@@ -14,9 +14,14 @@ env:
   S3_BUCKET: solc-bin
   S3_REGION: eu-central-1
   CLOUDFRONT_DISTRIBUTION_ID: E1O6GT57WUFUHD
+  R2_BUCKET: solc-bin
+  R2_ACCOUNT_ID: 1fbd136205d2c780838f0d2c014bf69c
+  R2_ZONE: EEUR
+  CLOUDFLARE_ZONE_ID: d63261269eeac3abf4c1b2f52e71ae1b
+  CLOUDFLARE_CACHE_HOST: binaries.soliditylang-test.org
 
 jobs:
-  push-to-s3:
+  mirror-content:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -56,3 +61,19 @@ jobs:
         run: |
           cd solc-bin/
           ./sync-s3.sh "$S3_BUCKET" "$CLOUDFRONT_DISTRIBUTION_ID"
+
+      - name: Configure the R2 client
+        run: |
+          aws configure set aws_access_key_id '${{ secrets.CLOUDFLARE_ACCESS_KEY_ID }}'
+          aws configure set aws_secret_access_key '${{ secrets.CLOUDFLARE_SECRET_ACCESS_KEY }}'
+
+      - name: Sync the R2 bucket
+        run: |
+          cd solc-bin/
+          ./sync-r2.sh \
+            "$R2_ACCOUNT_ID" \
+            "$R2_ZONE" \
+            "$R2_BUCKET" \
+            "$CLOUDFLARE_ZONE_ID" \
+            "$CLOUDFLARE_CACHE_HOST" \
+            '${{ secrets.CLOUDFLARE_API_TOKEN }}'
