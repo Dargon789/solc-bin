@@ -1,0 +1,19 @@
+{
+  "builds": [
+    {
+      "path": "solc-linux-arm64-v0.8.31+commit.fd3a2265",
+      "version": "0.8.31",
+      "build": "commit.fd3a2265",
+      "longVersion": "0.8.31+commit.fd3a2265",
+      "keccak256": "0xa15aefe37ac27f4c8fd409de4829204d86aa428cf5fd7dcdacdef634fc35fb55",
+      "sha256": "0xacf358d82da7db033debb2f4db11e1c9cfcb02b0cb5b5ddbb9635ad817b41bdd",
+      "urls": [
+        "dweb:/ipfs/QmRZtG1zE2b3xMix7sZJSVmzAvyHs845e1WnWTZWBy6Guj"
+      ]
+    }
+  ],
+  "releases": {
+    "0.8.31": "solc-linux-arm64-v0.8.31+commit.fd3a2265"
+  },
+  "latestRelease": "0.8.31"
+}
