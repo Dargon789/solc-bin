@@ -15,7 +15,7 @@ env:
   R2_ACCOUNT_ID: 1fbd136205d2c780838f0d2c014bf69c
   R2_ZONE: EEUR
   CLOUDFLARE_ZONE_ID: d63261269eeac3abf4c1b2f52e71ae1b
-  CLOUDFLARE_CACHE_HOST: binaries.soliditylang-test.org
+  CLOUDFLARE_CACHE_HOST: binaries.soliditylang.org
 
 jobs:
   mirror-content:
