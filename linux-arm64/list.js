@@ -1,8 +1,10 @@
 
 var soljsonSources = [
+  "solc-linux-arm64-v0.8.32+commit.ebbd65e5",
   "solc-linux-arm64-v0.8.31+commit.fd3a2265"
 ];
 var soljsonReleases = {
+  "0.8.32": "solc-linux-arm64-v0.8.32+commit.ebbd65e5",
   "0.8.31": "solc-linux-arm64-v0.8.31+commit.fd3a2265"
 };
 
