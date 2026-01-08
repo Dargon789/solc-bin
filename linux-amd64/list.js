@@ -1,5 +1,9 @@
 
 var soljsonSources = [
+  "solc-linux-amd64-v0.8.33+commit.64118f21",
+  "solc-linux-amd64-v0.8.32+commit.ebbd65e5",
+  "solc-linux-amd64-v0.8.31+commit.fd3a2265",
+  "solc-linux-amd64-v0.8.31-pre.1+commit.b59566f6",
   "solc-linux-amd64-v0.8.30+commit.73712a01",
   "solc-linux-amd64-v0.8.29+commit.ab55807c",
   "solc-linux-amd64-v0.8.28+commit.7893614a",
@@ -88,6 +92,9 @@ var soljsonSources = [
   "solc-linux-amd64-v0.4.10+commit.9e8cc01b"
 ];
 var soljsonReleases = {
+  "0.8.33": "solc-linux-amd64-v0.8.33+commit.64118f21",
+  "0.8.32": "solc-linux-amd64-v0.8.32+commit.ebbd65e5",
+  "0.8.31": "solc-linux-amd64-v0.8.31+commit.fd3a2265",
   "0.8.30": "solc-linux-amd64-v0.8.30+commit.73712a01",
   "0.8.29": "solc-linux-amd64-v0.8.29+commit.ab55807c",
   "0.8.28": "solc-linux-amd64-v0.8.28+commit.7893614a",

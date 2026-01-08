@@ -120,7 +120,10 @@ async function makeEntry (dir, parsedFileName, oldList) {
     }
   }
 
-  if (!build.sha256 || !build.keccak256 || !build.urls || build.urls.length !== 2) {
+  // WARNING: This assumes that build.urls is supposed to contain one hash. Remember to update
+  // the check if this changes! If you don't you'll make the script always recalculate all hashes,
+  // regardless of --reuse-hashes.
+  if (!build.sha256 || !build.keccak256 || !build.urls || build.urls.length !== 1) {
     const fileContent = await readFileAsync(absolutePath)
     build.keccak256 = '0x' + keccak(fileContent).toString('hex')
     console.log("Computing hashes of '" + pathRelativeToRoot + "'")
@@ -156,6 +159,7 @@ function processDir (dir, options, listCallback) {
       try {
         oldList = JSON.parse(readFileSync(join(__dirname, dir, '/list.json')))
       } catch (err) {
+        console.log('WARNING: Failed to read the existing hashes from ' + join(__dirname, dir, '/list.json'))
         // Not being able to read the existing list is not a critical error.
         // We'll just recreate it from scratch.
       }
@@ -169,6 +173,7 @@ function processDir (dir, options, listCallback) {
       '/emscripten-wasm32': ['.js'],
       '/windows-amd64': ['.zip', '.exe'],
       '/linux-amd64': [''],
+      '/linux-arm64': [''],
       '/macosx-amd64': ['']
     }[dir] || ''
 
@@ -273,7 +278,7 @@ function processDir (dir, options, listCallback) {
     })
 
     // Update 'latest' symlink (except for wasm/ where the link is hard-coded to point at the one in bin/).
-    if (dir !== '/wasm') {
+    if (dir !== '/wasm' && latestReleaseFile) {
       const releaseExtension = binaryExtensions.find(function (extension) { return latestReleaseFile.endsWith(extension) })
 
       binaryExtensions.forEach(function (extension) {
@@ -342,6 +347,7 @@ function parseCommandLine () {
 const DIRS = [
   '/bin',
   '/linux-amd64',
+  '/linux-arm64',
   '/macosx-amd64',
   '/windows-amd64'
 ]
@@ -355,7 +361,7 @@ DIRS.forEach(function (dir) {
     processDir(dir, options, function (parsedList) {
       // Any new releases added to bin/ need to be linked in other directories before we can start processing them.
       parsedList.forEach(function (release) {
-        if (release.prerelease === undefined) {
+        if (release.prerelease === undefined || release.prerelease.startsWith('pre.')) {
           // Starting with 0.6.2 we no longer build asm.js releases and the new builds added to bin/ are all wasm.
           if (semver.gt(release.version, '0.6.1')) {
             updateSymlinkSync(
@@ -375,7 +381,7 @@ DIRS.forEach(function (dir) {
       processDir('/wasm', options, function (parsedList) {
         // Any new releases added to wasm/ need to be linked in emscripten-wasm32/ first.
         parsedList.forEach(function (release) {
-          if (release.prerelease === undefined) {
+          if (release.prerelease === undefined || release.prerelease.startsWith('pre.')) {
             updateSymlinkSync(
               join('/emscripten-wasm32', 'solc-emscripten-wasm32-v' + release.longVersion + '.js'),
               join('..', 'wasm', release.path)

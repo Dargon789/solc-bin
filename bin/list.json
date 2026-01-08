@@ -23007,9 +23007,369 @@
       "urls": [
         "dweb:/ipfs/QmfTjmizSh1escDWzwEJiwxMjrRjJqarBJMKnKiqxvj2iX"
       ]
+    },
+    {
+      "path": "soljson-v0.8.31-nightly.2025.9.25+commit.5279360c.js",
+      "version": "0.8.31",
+      "prerelease": "nightly.2025.9.25",
+      "build": "commit.5279360c",
+      "longVersion": "0.8.31-nightly.2025.9.25+commit.5279360c",
+      "keccak256": "0xf25f1978272c82bc5b8ae4a9bc3a3abdce7bf31d47810832bd02d0a16532b94c",
+      "sha256": "0x817d5b825bdd3caa160462fa9fb7f51e768f9cc3a2c6a4ecdcb868f99ffec742",
+      "urls": [
+        "dweb:/ipfs/QmZBbsyvhn7o5U9ZeTyoSRQMFoUEpeh7nUybiNGyrkQ9yq"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.31-nightly.2025.9.26+commit.872018f2.js",
+      "version": "0.8.31",
+      "prerelease": "nightly.2025.9.26",
+      "build": "commit.872018f2",
+      "longVersion": "0.8.31-nightly.2025.9.26+commit.872018f2",
+      "keccak256": "0x6b3b98230c28dad973e94b52e1de17122783d313b07f6461cbd1e0a118a448e7",
+      "sha256": "0x2df5fc20046dd68585debc10ea8545c9704a0b4b23f0bdbf357224853631a395",
+      "urls": [
+        "dweb:/ipfs/QmdgojD3jKUi4Vo6UjvQcoBQkeL2vPSnzLXSPP3BicDiHT"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.31-nightly.2025.10.20+commit.34754a5f.js",
+      "version": "0.8.31",
+      "prerelease": "nightly.2025.10.20",
+      "build": "commit.34754a5f",
+      "longVersion": "0.8.31-nightly.2025.10.20+commit.34754a5f",
+      "keccak256": "0x9819951acf695c056d66d019fb3a91167ddbc9092593783596c1cf8e5388d1c1",
+      "sha256": "0xa136a8f12397849194614c5694764aaa3443ece4fb5187eba95718d7adc877d4",
+      "urls": [
+        "dweb:/ipfs/Qmf3Hs96VFyK1kGpDYzWzogVBXkDseAWgH419LN4LJpUhg"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.31-nightly.2025.10.22+commit.03448512.js",
+      "version": "0.8.31",
+      "prerelease": "nightly.2025.10.22",
+      "build": "commit.03448512",
+      "longVersion": "0.8.31-nightly.2025.10.22+commit.03448512",
+      "keccak256": "0xbafb666ca3b95484cbfbd2f5f5bb8890c02bddedc153b8a95b1db3392e1ed180",
+      "sha256": "0x114ab330ae326066c5704d44eff522d3c83ad2e5fb7ad7ef7c692ebb332284b4",
+      "urls": [
+        "dweb:/ipfs/QmWcV7ie3XDsd7kDqpVTgqMa8QmBnkMqMZV6VtmaFnYX1P"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.31-nightly.2025.10.27+commit.8cb16a10.js",
+      "version": "0.8.31",
+      "prerelease": "nightly.2025.10.27",
+      "build": "commit.8cb16a10",
+      "longVersion": "0.8.31-nightly.2025.10.27+commit.8cb16a10",
+      "keccak256": "0x1e3915e2be8b574edab1cc6d66aba89967fc9bb2b9a6103941a8735a88dd09f9",
+      "sha256": "0xfc09603d4bd408b0de2fb2e60b2b9317daef80aa4b1c276d36fd271c02ced667",
+      "urls": [
+        "dweb:/ipfs/QmQeb3MdisDTYxmeuwaxeDNptc1vLguHJvr8ZMJHkCb3eu"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.31-nightly.2025.10.28+commit.5e722e7b.js",
+      "version": "0.8.31",
+      "prerelease": "nightly.2025.10.28",
+      "build": "commit.5e722e7b",
+      "longVersion": "0.8.31-nightly.2025.10.28+commit.5e722e7b",
+      "keccak256": "0x334c3d2aeed75d84f6a48336a9ff0e5e4fd307f5fd0b40aa7428bc09be8452eb",
+      "sha256": "0x6b02656caa93b37a308d8ec2786b247d9720a84d05145e4e77628238460921e8",
+      "urls": [
+        "dweb:/ipfs/QmSzsWnpKmrgdHRf8UNCaYWp4RUs57xgU1ysCesF5ffC2q"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.31-nightly.2025.10.31+commit.a5eb24d6.js",
+      "version": "0.8.31",
+      "prerelease": "nightly.2025.10.31",
+      "build": "commit.a5eb24d6",
+      "longVersion": "0.8.31-nightly.2025.10.31+commit.a5eb24d6",
+      "keccak256": "0xc32b448d7dab059b2142612f70f2b829f26ec716549adc1feee92030ae3ef18a",
+      "sha256": "0x3dcbe2339948ae02f005b3bb92793ca6c963c597ee31f79a7b668a22b94823b6",
+      "urls": [
+        "dweb:/ipfs/QmZxVoSsvUG82ecFcfkiub5pj2XYAhFHw78HR8VF5r7jo3"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.31-nightly.2025.11.2+commit.1dcc8647.js",
+      "version": "0.8.31",
+      "prerelease": "nightly.2025.11.2",
+      "build": "commit.1dcc8647",
+      "longVersion": "0.8.31-nightly.2025.11.2+commit.1dcc8647",
+      "keccak256": "0xd3a84e314dbc88b3904e8f66f618e26dca93267470f5dbb96b2c3d033aca2c16",
+      "sha256": "0x04ba5b107e3f86a694cf4dec84db009718f8375520730a70c699e4b3649a2786",
+      "urls": [
+        "dweb:/ipfs/QmNWo8DobEkUryuTFXKkrZQDcB3u6aWRhGhbZjfXVkz5jM"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.31-nightly.2025.11.3+commit.19ecacfa.js",
+      "version": "0.8.31",
+      "prerelease": "nightly.2025.11.3",
+      "build": "commit.19ecacfa",
+      "longVersion": "0.8.31-nightly.2025.11.3+commit.19ecacfa",
+      "keccak256": "0x632367b4e23c8129ecffbc89f7751618b82dc965cfa99c8dba10ed44164fba21",
+      "sha256": "0xccf20639e6b0fabb752337311928c00cc47adf0176c743a9fc7b0ea23337c186",
+      "urls": [
+        "dweb:/ipfs/Qmb2aWCV1SVrRjFwWhXBH82A8UTktZ7GN7nHkJmw4bQZCc"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.31-nightly.2025.11.4+commit.a048ccfc.js",
+      "version": "0.8.31",
+      "prerelease": "nightly.2025.11.4",
+      "build": "commit.a048ccfc",
+      "longVersion": "0.8.31-nightly.2025.11.4+commit.a048ccfc",
+      "keccak256": "0xb64598545ab20c1668829982e6ab2cfc7eba7629c61d3bb94a3627192b52ba0c",
+      "sha256": "0x81f4a677cdc83a0b871ddaebf486edb3b68acb86a54be30596503dbd01fe6ab5",
+      "urls": [
+        "dweb:/ipfs/QmNZ55qAdaE4BDeDMLpQWVZxfnwo1dpPQaEMafrHTBtXM8"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.31-nightly.2025.11.5+commit.08c4e0c6.js",
+      "version": "0.8.31",
+      "prerelease": "nightly.2025.11.5",
+      "build": "commit.08c4e0c6",
+      "longVersion": "0.8.31-nightly.2025.11.5+commit.08c4e0c6",
+      "keccak256": "0x07e01d643b08b44c5ce41fd998c48ce4836ee845ed4abc8d08c2caad240da55b",
+      "sha256": "0xd96bdb2cd80b427779819b094102d3190939861a5b923c7941204bc14250b6be",
+      "urls": [
+        "dweb:/ipfs/QmQcSMX89kgqEdC8io2mZmnsJqu3YJ6ev6mDTkPPaDms33"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.31-pre.1+commit.b59566f6.js",
+      "version": "0.8.31",
+      "prerelease": "pre.1",
+      "build": "commit.b59566f6",
+      "longVersion": "0.8.31-pre.1+commit.b59566f6",
+      "keccak256": "0x5cbab72123ec1f65e72592375e568788d88c96ffd90a1a3e9107fcd5a3b9cf87",
+      "sha256": "0xaf2b74e3c674c09ce89189edfaa81a0d01f1a0dce9100968e0d442de8a93b926",
+      "urls": [
+        "dweb:/ipfs/QmafWKo2uVeEPMi1GbY2DVPreWtbA6aqXjynnn4wViA6a4"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.31+commit.fd3a2265.js",
+      "version": "0.8.31",
+      "build": "commit.fd3a2265",
+      "longVersion": "0.8.31+commit.fd3a2265",
+      "keccak256": "0x1edae80a11416a6a31fb650a4f7a22b4b43dd229160f7c3ea9e823ccb0fca826",
+      "sha256": "0x3aff685785055588b03e1c0786ee92cada7f4068a65c7aed3a8a868c43253ee0",
+      "urls": [
+        "dweb:/ipfs/QmfLTRkP13TiEUHvB8vQMjTNZrqhQwJKf8wXLZNFfoiRN8"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.32-nightly.2025.12.3+commit.3cd817cf.js",
+      "version": "0.8.32",
+      "prerelease": "nightly.2025.12.3",
+      "build": "commit.3cd817cf",
+      "longVersion": "0.8.32-nightly.2025.12.3+commit.3cd817cf",
+      "keccak256": "0xd12958bdc01a5d0b1fcc8e8a2105cb8e3437dc2fd84f658f34ef32e9ea3c2e0e",
+      "sha256": "0x00cb5744008b74d8de15b872817e353b2f8c8f1bb581c11f2a6218d7e77757de",
+      "urls": [
+        "dweb:/ipfs/QmfZvCbtVKpSrmcUGagWjjLhvQyMY1W9Mj84Hv2Sh1VHvE"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.32-nightly.2025.12.4+commit.11150f6f.js",
+      "version": "0.8.32",
+      "prerelease": "nightly.2025.12.4",
+      "build": "commit.11150f6f",
+      "longVersion": "0.8.32-nightly.2025.12.4+commit.11150f6f",
+      "keccak256": "0xcbc9cd5f53597e6b0b9eaffc2c300eb60531053f0a581e58909278e7db31163b",
+      "sha256": "0x3df856e519f519febf779230bd5aefb7ef44f8dd30860aa1c6485633feab3922",
+      "urls": [
+        "dweb:/ipfs/QmarK8MNZeqvybdY1XdYbvBagKJVYXTFB44s8D934fJRgn"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.32-nightly.2025.12.5+commit.2f5d103b.js",
+      "version": "0.8.32",
+      "prerelease": "nightly.2025.12.5",
+      "build": "commit.2f5d103b",
+      "longVersion": "0.8.32-nightly.2025.12.5+commit.2f5d103b",
+      "keccak256": "0x1ec95403872e633762c07137dd4a6cd8847317034dc099869925c718ed9adbd2",
+      "sha256": "0xab965eafb305f3dde8ab26c2ff31dce77f3f04a19b6e1953ae92a6ad0a981369",
+      "urls": [
+        "dweb:/ipfs/QmT6uKDCpJvisiPY43jJUuJsoNp7AgPbEzpj8qdrsE8ijn"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.32-nightly.2025.12.8+commit.82c8ca1b.js",
+      "version": "0.8.32",
+      "prerelease": "nightly.2025.12.8",
+      "build": "commit.82c8ca1b",
+      "longVersion": "0.8.32-nightly.2025.12.8+commit.82c8ca1b",
+      "keccak256": "0x19b69436c8edaf25ae8a4140e112980b7a065e05d5990f2112ffd8652441c411",
+      "sha256": "0x109cf915878bd59c43f81e241230d021f0ec72ce9d0be02984407a9e59e3b0d3",
+      "urls": [
+        "dweb:/ipfs/QmXy8KnChETHvt9DhjtFb5jTqhTuRZ3JGBiCtnTZnsUKv4"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.32-nightly.2025.12.9+commit.786b7402.js",
+      "version": "0.8.32",
+      "prerelease": "nightly.2025.12.9",
+      "build": "commit.786b7402",
+      "longVersion": "0.8.32-nightly.2025.12.9+commit.786b7402",
+      "keccak256": "0x5fcb838356f023c05920ee41c5121f9d07c799ab796368e300db6ca5edb1e1fb",
+      "sha256": "0x17c4d1249e85c6bab2189ca543e7a7b1afa39422d682060a980abf108ad17851",
+      "urls": [
+        "dweb:/ipfs/QmPYhYvAjHCrWgERh9gHmFqXc6cXmjBiUDKperby9iwaTk"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.32-nightly.2025.12.10+commit.c8ccc6c2.js",
+      "version": "0.8.32",
+      "prerelease": "nightly.2025.12.10",
+      "build": "commit.c8ccc6c2",
+      "longVersion": "0.8.32-nightly.2025.12.10+commit.c8ccc6c2",
+      "keccak256": "0x2da60a55deda1c747dbaaf4510c099fe7df574ab802e27757910fce63cb92f3d",
+      "sha256": "0x5400266defcef6b6fe8a741044e6a45b9552a871b2eb9edd3122763ba08bd00c",
+      "urls": [
+        "dweb:/ipfs/QmaY8XxC9oNyAiwRy5J6hjkneYpL9dgK72aLmyWpoQFuLJ"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.32-nightly.2025.12.11+commit.aca05d4d.js",
+      "version": "0.8.32",
+      "prerelease": "nightly.2025.12.11",
+      "build": "commit.aca05d4d",
+      "longVersion": "0.8.32-nightly.2025.12.11+commit.aca05d4d",
+      "keccak256": "0xc8dbeef35e7977ef18a787989c485802d80437aecb8cf82c1a7470a7b7b301db",
+      "sha256": "0xdaf9f3fdbb5ced768efd4462ca4f6cbfd326c2d471fef8f185d38892a1c4f8d0",
+      "urls": [
+        "dweb:/ipfs/QmRtXQ8zm5WfCBpiMRGf2yGhW7iCzawUzctr8HfvU5ktFb"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.32-nightly.2025.12.16+commit.3cda75a3.js",
+      "version": "0.8.32",
+      "prerelease": "nightly.2025.12.16",
+      "build": "commit.3cda75a3",
+      "longVersion": "0.8.32-nightly.2025.12.16+commit.3cda75a3",
+      "keccak256": "0xca55889aedee83707f9491bf27d6f0e45241e21386ddfa00e2e3f43ed42d94db",
+      "sha256": "0xb94b22f87d7ef59e6234c0f1593e4b2ddd4aaa6f9dae77af3d044f9116f202c4",
+      "urls": [
+        "dweb:/ipfs/QmSJMPU1tZ1Khmpcz1RXd7rhJW3DbnSRpQwp2yH5W9eVTx"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.32-nightly.2025.12.17+commit.7f5d590b.js",
+      "version": "0.8.32",
+      "prerelease": "nightly.2025.12.17",
+      "build": "commit.7f5d590b",
+      "longVersion": "0.8.32-nightly.2025.12.17+commit.7f5d590b",
+      "keccak256": "0x9112a419a6b8b1f8a50ca942146ec2e02e850a41b0a93e2775ffcc59a620620e",
+      "sha256": "0x8192b89cc50498e723abc8b2857da0dcba67f8e57124787927094eecf293d297",
+      "urls": [
+        "dweb:/ipfs/QmerYjnj7urbww6xkFhLptt2SJJRXPtmvjnum8N1r7qVBt"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.32+commit.ebbd65e5.js",
+      "version": "0.8.32",
+      "build": "commit.ebbd65e5",
+      "longVersion": "0.8.32+commit.ebbd65e5",
+      "keccak256": "0xcc67caedc5b0b039a17dc97a9109dde228b2629e5b08f4eada4854157f100455",
+      "sha256": "0xd9216e6d578f67e1afd54ecb931b9db6a053ff2522d2e21eca3b61b337a9199c",
+      "urls": [
+        "dweb:/ipfs/QmQ9fLZixjbdKfozzFCHgZ3YFHg6kBCYLmDjNpSH7VyPLT"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.33+commit.64118f21.js",
+      "version": "0.8.33",
+      "build": "commit.64118f21",
+      "longVersion": "0.8.33+commit.64118f21",
+      "keccak256": "0x5fb66b232b1b74b6bd842ee7ee7310b1cca1904a081518b0e4ed915539df22bd",
+      "sha256": "0x5dd4eecfc699edb05b004b998cb4de7c70c22e94baa0c75881a2192f10ffa7c0",
+      "urls": [
+        "dweb:/ipfs/QmTRxXEh4AvvToEFgAVduJdcRr9QVg6sQsbBpEau9y1YPE"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.34-nightly.2025.12.18+commit.da07f65f.js",
+      "version": "0.8.34",
+      "prerelease": "nightly.2025.12.18",
+      "build": "commit.da07f65f",
+      "longVersion": "0.8.34-nightly.2025.12.18+commit.da07f65f",
+      "keccak256": "0xe91b8a47e557d0e9f1986ead118042b44d88ba6f49d876be00c4fafd94d08264",
+      "sha256": "0xba42d276a36387fa271b1634749129a3f152b8cf0e844606656fe7cf1a96e021",
+      "urls": [
+        "dweb:/ipfs/QmTUh3xFYaw6iPhvv3aPwfywUjAJRSn3YPtAsDdA7uH67J"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.34-nightly.2025.12.19+commit.089b04ba.js",
+      "version": "0.8.34",
+      "prerelease": "nightly.2025.12.19",
+      "build": "commit.089b04ba",
+      "longVersion": "0.8.34-nightly.2025.12.19+commit.089b04ba",
+      "keccak256": "0x6fce93d3fda2de158ab0caa5223c53604732d0534e50d5064e9860b3b90cbca4",
+      "sha256": "0x05bad510aed4253c314a6ea90e2e21a0602714898cd729197fc896714db25047",
+      "urls": [
+        "dweb:/ipfs/QmZa7Dd5aQd1Y8gUcJim3DQ7o9dWMoHEb9WCsiRaixWQ4D"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.34-nightly.2025.12.22+commit.dad5e83a.js",
+      "version": "0.8.34",
+      "prerelease": "nightly.2025.12.22",
+      "build": "commit.dad5e83a",
+      "longVersion": "0.8.34-nightly.2025.12.22+commit.dad5e83a",
+      "keccak256": "0x4fd514d1315fcc15b1b06d95356d70e18d7ccdbb25af2081aaf6543a94a07a30",
+      "sha256": "0x6b020f5951656412348410e7c78129aecae53cae836480221927178992a16382",
+      "urls": [
+        "dweb:/ipfs/QmQRzNUY6oxnic4FWK5vbc2fB8JeZcq7QXKLNjpvYjVsTg"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.34-nightly.2026.1.5+commit.ed1f49b4.js",
+      "version": "0.8.34",
+      "prerelease": "nightly.2026.1.5",
+      "build": "commit.ed1f49b4",
+      "longVersion": "0.8.34-nightly.2026.1.5+commit.ed1f49b4",
+      "keccak256": "0xf3fd55d26f2e44b879218619da82750b114148c2ae9c536973973f3b1d78af13",
+      "sha256": "0x2430c470d5f4af95932eff074b14e4375be5053eb499a6634edb5114edb94b6a",
+      "urls": [
+        "dweb:/ipfs/QmQ5aNSj8brTAn7Xfrs8yBTeEazhWcBKakFEh5FjM2cgc9"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.34-nightly.2026.1.6+commit.7856462f.js",
+      "version": "0.8.34",
+      "prerelease": "nightly.2026.1.6",
+      "build": "commit.7856462f",
+      "longVersion": "0.8.34-nightly.2026.1.6+commit.7856462f",
+      "keccak256": "0x55d762efef14f031e2a6ac159cde5ca1d92f8430a4d67612a8e19277113f648f",
+      "sha256": "0x31533b66467c2bca5410a6d90108ece4c26a6930d84bb178837b40f21c27973e",
+      "urls": [
+        "dweb:/ipfs/QmZrkuNh9g2QdiFymjJq49VckR92vkcvcWR7F1vEdET9jw"
+      ]
+    },
+    {
+      "path": "soljson-v0.8.34-nightly.2026.1.7+commit.9cc88f93.js",
+      "version": "0.8.34",
+      "prerelease": "nightly.2026.1.7",
+      "build": "commit.9cc88f93",
+      "longVersion": "0.8.34-nightly.2026.1.7+commit.9cc88f93",
+      "keccak256": "0x748190f9a3462039c41674e49f8feaef17dd392b525d6592d9c233b0c6900e61",
+      "sha256": "0xc9f909057084d5576131437ab486c732e817363c28b95df32d2a8068a4959bb8",
+      "urls": [
+        "dweb:/ipfs/QmSRqEiKkW3vJrt7fZAUYXTU2QWgen7jueCcjiCmKHS4iU"
+      ]
     }
   ],
   "releases": {
+    "0.8.33": "soljson-v0.8.33+commit.64118f21.js",
+    "0.8.32": "soljson-v0.8.32+commit.ebbd65e5.js",
+    "0.8.31": "soljson-v0.8.31+commit.fd3a2265.js",
     "0.8.30": "soljson-v0.8.30+commit.73712a01.js",
     "0.8.29": "soljson-v0.8.29+commit.ab55807c.js",
     "0.8.28": "soljson-v0.8.28+commit.7893614a.js",
@@ -23124,5 +23484,5 @@
     "0.1.2": "soljson-v0.1.2+commit.d0d36e3.js",
     "0.1.1": "soljson-v0.1.1+commit.6ff4cd6.js"
   },
-  "latestRelease": "0.8.30"
+  "latestRelease": "0.8.33"
 }
