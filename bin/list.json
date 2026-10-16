@@ -24956,6 +24956,18 @@
       "urls": [
         "dweb:/ipfs/QmZhkVqzNuTLdnJWGih3LNmV4qvb3HZdU1Vvte1ontJBYU"
       ]
+    },
+    {
+      "path": "soljson-v0.8.38-nightly.2026.10.15+commit.bbfadd4d.js",
+      "version": "0.8.38",
+      "prerelease": "nightly.2026.10.15",
+      "build": "commit.bbfadd4d",
+      "longVersion": "0.8.38-nightly.2026.10.15+commit.bbfadd4d",
+      "keccak256": "0x845423c818f5f2fc603053610ba3e1a93f6f33e04a85b2dcbf4f5fb1e64f6d60",
+      "sha256": "0x6a683202e2dc7f39bbd27384288b2f136a900cb6b82fd9b57d9643739e676e78",
+      "urls": [
+        "dweb:/ipfs/QmWiLzhSERFE3tkVobrCjYjtRJc6PnqAYwRT8fNfdmZHUC"
+      ]
     }
   ],
   "releases": {
